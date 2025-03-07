@@ -36,7 +36,7 @@ The project uses the **ETH Walking Pedestrians (EWAP)** dataset. The dataset inc
 - **OBSTACLES:** An obstacle map (`map.png`) representing obstacles in the scene.  
   A homography matrix (`H.txt`) is used to convert between the map image and world coordinates.
 - **GROUPS (Optional):** Contains IDs of pedestrians walking in groups (not used directly in this project).
-- **LINK:** https://icu.ee.ethz.ch/research/datsets.html
+- **LINK:** https://icu.ee.ethz.ch/research/datsets.html (BIWI Walking Pedestrians dataset)
 
 ## Problem Statement
 
