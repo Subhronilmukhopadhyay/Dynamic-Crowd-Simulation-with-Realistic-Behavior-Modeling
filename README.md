@@ -138,5 +138,5 @@ The project is divided into the following main components:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/dynamic-crowd-simulation.git
+   git clone https://github.com/Subhronilmukhopadhyay/dynamic-crowd-simulation.git
    cd dynamic-crowd-simulation
