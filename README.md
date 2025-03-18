@@ -140,3 +140,40 @@ The project is divided into the following main components:
    ```bash
    git clone https://github.com/Subhronilmukhopadhyay/dynamic-crowd-simulation.git
    cd dynamic-crowd-simulation
+
+## Dependencies
+
+1. **Python 3.7+:**  
+   - **Requirement:** Core programming language used for the project.  
+   - **Installation:** Ensure Python 3.7 or higher is installed.
+
+2. **PyTorch & PyTorch Geometric:**  
+   - **Requirement:** For deep learning model implementation (GNN+Transformer).  
+   - **Installation:** Install via pip (refer to `requirements.txt` for version specifics).
+
+3. **Stable-Baselines3:**  
+   - **Requirement:** Provides PPO and other RL algorithms for training the navigation agent.  
+   - **Installation:** Available via pip.
+
+4. **OpenCV:**  
+   - **Requirement:** For video processing and overlaying simulation results on video frames.  
+   - **Installation:** Install using pip or conda.
+
+5. **Gym, NumPy, & Matplotlib:**  
+   - **Requirement:** Gym for the RL environment framework; NumPy for numerical computations; Matplotlib for visualization.  
+   - **Installation:** Install via pip.
+
+## Conclusion
+
+1. **Integrated Deep Learning and RL:**  
+   - **Achievement:** Combined a GNN+Transformer model for pedestrian trajectory prediction with a PPO agent for navigation.  
+   - **Impact:** Achieved robust agent performance with stable training metrics and positive mean rewards.
+
+2. **Real-Time Simulation and Visualization:**  
+   - **Achievement:** Developed a system to map world coordinates to video pixel space via homography, enabling real-time overlay of agent behavior on video.  
+   - **Impact:** Provided clear visual validation of the simulation and navigation performance.
+
+3. **Robust and Extensible Framework:**  
+   - **Achievement:** Designed a modular framework capable of handling dynamic crowds, variable pedestrian counts, and obstacle-aware navigation.  
+   - **Impact:** The framework can be extended to incorporate multi-agent coordination and further research in crowd dynamics.
+
