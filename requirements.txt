@@ -1,0 +1,9 @@
+gym==0.26.2
+matplotlib==3.8.4
+numpy==2.2.4
+pandas==2.2.2
+opencv_contrib_python==4.10.0.84
+opencv_python==4.10.0.84
+opencv_python_headless==4.10.0.84
+stable_baselines3==2.5.0
+torch==2.5.1+cu121
